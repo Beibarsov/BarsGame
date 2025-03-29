@@ -9,13 +9,9 @@ const { showAlert } = usePopup()
 const { initDataUnsafe } = useMiniApp()
 const username = initDataUnsafe.user?.username
 const userFirstName = initDataUnsafe.user?.first_name
-let a = 1;
 
 
-
-function incrementScore(){
-  a = a + 1
-}
+let a = 12;
 
 
 </script>
