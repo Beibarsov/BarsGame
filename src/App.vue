@@ -28,7 +28,7 @@ const { showAlert } = usePopup()
   </header>
 
   <main>
-    
+    <script async src="https://js.onclckmn.com/static/onclicka.js" data-admpid="310907"></script>
   </main>
 </template>
 
