@@ -11,7 +11,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
-      <tg-alert message="Hello!" />
+      
 
     </div>
   </header>
