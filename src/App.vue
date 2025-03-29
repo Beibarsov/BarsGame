@@ -1,7 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import { Alert } from 'vue-tg'
+import { Alert, MainButton } from 'vue-tg'
 
 
 </script>
@@ -13,6 +13,7 @@ import { Alert } from 'vue-tg'
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
       <Alert message="123123"/>
+      <MainButton text="Нажми на кнопку"/>
 
       
 
