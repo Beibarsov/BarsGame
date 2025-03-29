@@ -26,7 +26,7 @@ let a = 1;
       <HelloWorld msg="Привет" />
       
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
-        <button @click=" () => a++">Классная кнопка</button>
+        <button @click="a++">Классная кнопка</button>
         <p> У тебя очков {{ a }}</p>
 
       
