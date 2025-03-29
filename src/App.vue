@@ -18,7 +18,7 @@ Vue.use(VueTelegramPlugin)
   </header>
 
   <main>
-    <MainButton text="Главная кнопка"/>
+    
   </main>
 </template>
 
