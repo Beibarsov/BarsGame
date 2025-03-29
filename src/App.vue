@@ -19,7 +19,8 @@ const user = initDataUnsafe.user?.first_name
 
     <div class="wrapper">
       
-      <HelloWorld msg=user />
+      <HelloWorld msg="Привет" />
+      {{ user }}
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
       
       
