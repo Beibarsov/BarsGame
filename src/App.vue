@@ -28,7 +28,7 @@ function incrementScore(){
       <HelloWorld msg="Привет" />
       
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
-        <button @click=" () => this.incrementScore()">Классная кнопка</button>
+        <button @click=" () => this.a = 2">Классная кнопка</button>
         <p> У тебя очков {{ a }}</p>
       
 
