@@ -39,6 +39,7 @@ const userFirstName = initDataUnsafe.user?.first_name
         <p>{{ username }}</p>
         <p>{{ userFirstName }}</p>
       </h3>
+      <button>Классная кнопка</button>
       <router-link to="/products">Products</router-link>
   </main>
 </template>
