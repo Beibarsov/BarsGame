@@ -27,7 +27,7 @@ let a = 1;
       
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
         <button @click=" () => a++">Классная кнопка</button>
-      
+        <p> У тебя очков {{ a }}</p>
 
       
 
@@ -39,7 +39,7 @@ let a = 1;
         Вот что мы знаем о тебе:
         <p>{{ username }}</p>
         <p>{{ userFirstName }}</p>
-        <p> У тебя очков {{ a }}</p>
+        
       </h3>
       
   </main>
