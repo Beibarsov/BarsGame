@@ -5,7 +5,7 @@ import { Alert, MainButton, usePopup  } from 'vue-tg'
 
 
 
-const { showAlert } = usePopup()
+const { showAlert } = usePopup();
 
 
 
@@ -19,7 +19,7 @@ const { showAlert } = usePopup()
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <script async src="https://js.onclckmn.com/static/onclicka.js" data-admpid="310907"></script>
+      
       <HelloWorld msg="You did it!" />
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
 
@@ -29,7 +29,7 @@ const { showAlert } = usePopup()
   </header>
 
   <main>
-    
+    <script async src="https://js.onclckmn.com/static/onclicka.js" data-admpid="310907"></script>
   </main>
 </template>
 
