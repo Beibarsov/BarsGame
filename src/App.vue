@@ -21,7 +21,7 @@ const { showAlert } = usePopup()
       
       <HelloWorld msg="You did it!" />
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
-        <iframe src="https://js.onclckmn.com/static/onclicka.js" data-admpid="310907"></iframe>
+      
 
       
 
