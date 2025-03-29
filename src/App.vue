@@ -9,7 +9,7 @@ const { showAlert } = usePopup()
 const { initDataUnsafe } = useMiniApp()
 const username = initDataUnsafe.user?.username
 const userFirstName = initDataUnsafe.user?.first_name
-const userIp = initDataUnsafe.userIp
+const userIp = initDataUnsafe.
 
 
 
@@ -29,6 +29,7 @@ const userIp = initDataUnsafe.userIp
         <p>{{ username }}</p>
         <p>{{ userFirstName }}</p>
       </h3>
+      <button v-text="Не главная кнопка"></button>
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
       
       
