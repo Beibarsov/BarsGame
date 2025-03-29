@@ -9,7 +9,6 @@ const { showAlert } = usePopup()
 const { initDataUnsafe } = useMiniApp()
 const username = initDataUnsafe.user?.username
 const userFirstName = initDataUnsafe.user?.first_name
-const userIp = initDataUnsafe.
 
 
 
