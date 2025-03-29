@@ -1,8 +1,11 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import { Alert, MainButton } from 'vue-tg'
-const { showAlert } = useWebAppPopup()
+import { Alert, MainButton, usePopup  } from 'vue-tg'
+
+
+
+const { showAlert } = usePopup()
 
 
 
