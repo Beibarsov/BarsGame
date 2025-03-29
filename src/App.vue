@@ -20,9 +20,8 @@ const { showAlert } = usePopup()
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
-      <script async src="https://js.onclckmn.com/static/onclicka.js" data-admpid="310907"></script>
+      
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
-
 
       
 
