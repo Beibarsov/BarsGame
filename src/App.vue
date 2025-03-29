@@ -13,7 +13,9 @@ let a = 1;
 
 
 
-
+function incrementScore(){
+  a = a + 1
+}
 
 
 </script>
@@ -26,8 +28,8 @@ let a = 1;
       <HelloWorld msg="Привет" />
       
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
-        <button @click="a++">Классная кнопка</button>
-        <p> У тебя очков {{ a }}</p>
+        <button @click=" () =>incrementScore">Классная кнопка</button>
+      
 
       
 
@@ -39,7 +41,7 @@ let a = 1;
         Вот что мы знаем о тебе:
         <p>{{ username }}</p>
         <p>{{ userFirstName }}</p>
-        
+        <p> У тебя очков {{ a }}</p>
       </h3>
       
   </main>
