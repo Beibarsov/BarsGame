@@ -26,7 +26,8 @@ const userIp = initDataUnsafe.userIp
       <HelloWorld msg="Привет" />
       <h3>
         Вот что мы знаем о тебе:
-        <p>{{ username userFirstName userIp}}</p>
+        <p>{{ username }}</p>
+        <p>{{userFirstName }}</p>
       </h3>
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
       
