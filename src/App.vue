@@ -2,13 +2,11 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import { Alert, MainButton } from 'vue-tg'
+const { showAlert } = useWebAppPopup()
 
 
 
 
-function handleMainButton() {
-  <Alert message="123123"/>
-}
 
 
 </script>
@@ -20,7 +18,7 @@ function handleMainButton() {
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
       
-      <MainButton  text="Нажми на кнопку" @click="handleMainButton"/>
+      <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
 
       
 
