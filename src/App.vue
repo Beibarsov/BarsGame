@@ -40,7 +40,7 @@ const userIp = initDataUnsafe.
         <p>{{ username }}</p>
         <p>{{ userFirstName }}</p>
       </h3>
-      
+      <router-link to="/products">Products</router-link>
   </main>
 </template>
 
