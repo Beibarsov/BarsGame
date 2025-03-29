@@ -12,6 +12,7 @@ export default defineConfig({
   plugins: [
     vue(),
     vueDevTools(),
+    VueTelegramPlugin(),
   ],
   resolve: {
     alias: {

@@ -11,6 +11,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+      <TgMainButton text="123"/>
       
 
     </div>
