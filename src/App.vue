@@ -4,6 +4,13 @@ import TheWelcome from './components/TheWelcome.vue'
 import { Alert, MainButton } from 'vue-tg'
 
 
+
+
+function handleMainButton() {
+  <Alert message="123123"/>
+}
+
+
 </script>
 
 <template>
@@ -12,8 +19,8 @@ import { Alert, MainButton } from 'vue-tg'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
-      <Alert message="123123"/>
-      <MainButton text="Нажми на кнопку"/>
+      
+      <MainButton  text="Нажми на кнопку" @click="handleMainButton"/>
 
       
 
