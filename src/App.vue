@@ -1,12 +1,12 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import { Alert, MainButton, usePopup  } from 'vue-tg'
+import { Alert, MainButton, usePopup, useMiniApp  } from 'vue-tg'
 
 
 
 const { showAlert } = usePopup()
-
+const { initDataUnsafe } = useMiniApp()
 
 
 
@@ -19,8 +19,9 @@ const { showAlert } = usePopup()
 
     <div class="wrapper">
       
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg={{ initDataUnsafe.user.username  }} />
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
+      
       
 
       
