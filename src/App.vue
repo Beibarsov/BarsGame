@@ -8,7 +8,7 @@ import { Alert, MainButton, usePopup, useMiniApp  } from 'vue-tg'
 const { showAlert } = usePopup()
 const { initDataUnsafe } = useMiniApp()
 const username = initDataUnsafe.user?.username
-const userFirstName = initDataUnsafe.user?.userFirstName
+const userFirstName = initDataUnsafe.user?.first_name
 const userIp = initDataUnsafe.userIp
 
 
