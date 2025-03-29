@@ -24,7 +24,6 @@ const user = initDataUnsafe.user
         Вот что мы знаем о тебе:
         <p>{{ user.first_name user.last_name user.id }}</p>
       </h3>
-      {{ user }}
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
       
       
