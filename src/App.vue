@@ -1,6 +1,10 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import { Alert, MainButton, VueTelegramPlugin } from 'vue-tg'
+
+Vue.use(VueTelegramPlugin)
+
 </script>
 
 <template>
@@ -14,7 +18,7 @@ import TheWelcome from './components/TheWelcome.vue'
   </header>
 
   <main>
-    
+    <MainButton text="Главная кнопка"/>
   </main>
 </template>
 
