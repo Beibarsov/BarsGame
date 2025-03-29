@@ -3,7 +3,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import { Alert, MainButton, usePopup, useMiniApp  } from 'vue-tg'
 
-
+import { ref } from 'vue';
 
 const { showAlert } = usePopup()
 const { initDataUnsafe } = useMiniApp()
@@ -11,7 +11,14 @@ const username = initDataUnsafe.user?.username
 const userFirstName = initDataUnsafe.user?.first_name
 
 
-let a = 12;
+const a = ref(0);
+
+// Метод для увеличения значения a
+const incrementA = () => {
+  a.value++; // Обращаемся к значению через .value
+};
+
+
 
 
 </script>
@@ -24,7 +31,7 @@ let a = 12;
       <HelloWorld msg="Привет" />
       
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
-        <button type="button" @click="a++">Классная кнопка</button>
+        <button type="button" @click = "incrementA">Классная кнопка</button>
         <p> У тебя очков {{ a }}</p>
       
 
