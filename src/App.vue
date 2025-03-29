@@ -1,9 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import { Alert, MainButton, VueTelegramPlugin } from 'vue-tg'
 
-Vue.use(VueTelegramPlugin)
 
 </script>
 
