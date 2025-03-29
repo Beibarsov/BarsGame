@@ -10,6 +10,8 @@ const { initDataUnsafe } = useMiniApp()
 const username = initDataUnsafe.user?.username
 const userFirstName = initDataUnsafe.user?.first_name
 
+let a =0;
+
 
 
 
@@ -38,8 +40,9 @@ const userFirstName = initDataUnsafe.user?.first_name
         Вот что мы знаем о тебе:
         <p>{{ username }}</p>
         <p>{{ userFirstName }}</p>
+        <p> У тебя очков {{ a }}</p>
       </h3>
-      <button>Классная кнопка</button>
+      <button @click=" () => a = a+1">Классная кнопка</button>
       <router-link to="/products">Products</router-link>
   </main>
 </template>
