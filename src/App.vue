@@ -5,7 +5,7 @@ import { Alert, MainButton, usePopup  } from 'vue-tg'
 
 
 
-const { showAlert } = usePopup();
+const { showAlert } = usePopup()
 
 
 
