@@ -9,8 +9,7 @@ const { showAlert } = usePopup()
 const { initDataUnsafe } = useMiniApp()
 const username = initDataUnsafe.user?.username
 const userFirstName = initDataUnsafe.user?.first_name
-
-let a =0;
+let a = 0;
 
 
 
