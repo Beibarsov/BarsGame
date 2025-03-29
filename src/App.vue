@@ -40,7 +40,7 @@ const userIp = initDataUnsafe.
         <p>{{ username }}</p>
         <p>{{ userFirstName }}</p>
       </h3>
-      <button v-text="Не главная кнопка"></button>
+      <button>Кнопка</button>
   </main>
 </template>
 
