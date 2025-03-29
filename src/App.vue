@@ -7,7 +7,7 @@ import { Alert, MainButton, usePopup, useMiniApp  } from 'vue-tg'
 
 const { showAlert } = usePopup()
 const { initDataUnsafe } = useMiniApp()
-
+const user = initDataUnsafe.user?.first_name
 
 
 
@@ -19,7 +19,7 @@ const { initDataUnsafe } = useMiniApp()
 
     <div class="wrapper">
       
-      <HelloWorld msg="Привет" {{ initDataUnsafe.user?.first_name }} />
+      <HelloWorld msg=user />
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
       
       
