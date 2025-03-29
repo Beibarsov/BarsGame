@@ -19,7 +19,7 @@ const { initDataUnsafe } = useMiniApp()
 
     <div class="wrapper">
       
-      <HelloWorld msg={{ initDataUnsafe.user.username  }} />
+      <HelloWorld msg="Привет" />
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
       
       
