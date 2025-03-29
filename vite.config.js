@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import { VueTelegramPlugin } from 'vue-tg'
 
-Vue.use(VueTelegramPlugin)
+
 
 // https://vite.dev/config/
 export default defineConfig({
