@@ -24,12 +24,7 @@ const userIp = initDataUnsafe.
     <div class="wrapper">
       
       <HelloWorld msg="Привет" />
-      <h3>
-        Вот что мы знаем о тебе:
-        <p>{{ username }}</p>
-        <p>{{ userFirstName }}</p>
-      </h3>
-      <button v-text="Не главная кнопка"></button>
+      
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
       
       
@@ -40,7 +35,12 @@ const userIp = initDataUnsafe.
   </header>
 
   <main>
-    
+    <h3>
+        Вот что мы знаем о тебе:
+        <p>{{ username }}</p>
+        <p>{{ userFirstName }}</p>
+      </h3>
+      <button v-text="Не главная кнопка"></button>
   </main>
 </template>
 
