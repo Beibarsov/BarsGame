@@ -28,7 +28,8 @@ function incrementScore(){
       <HelloWorld msg="Привет" />
       
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
-        <button @click=" () =>incrementScore">Классная кнопка</button>
+        <button @click=" () =>incrementScore()">Классная кнопка</button>
+        <p> У тебя очков {{ a }}</p>
       
 
       
@@ -41,7 +42,7 @@ function incrementScore(){
         Вот что мы знаем о тебе:
         <p>{{ username }}</p>
         <p>{{ userFirstName }}</p>
-        <p> У тебя очков {{ a }}</p>
+        
       </h3>
       
   </main>
