@@ -23,7 +23,7 @@ const username = initDataUnsafe.user?.username
       <HelloWorld msg="Привет" />
       <h3>
         Вот что мы знаем о тебе:
-        <p>{{ user }}</p>
+        <p>{{ username }}</p>
       </h3>
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
       
