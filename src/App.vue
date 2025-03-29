@@ -41,7 +41,7 @@ let a = 0;
         <p>{{ userFirstName }}</p>
         <p> У тебя очков {{ a }}</p>
       </h3>
-      <button @click=" () => a = a+1">Классная кнопка</button>
+      <button @click=" () => a++">Классная кнопка</button>
       <router-link to="/products">Products</router-link>
   </main>
 </template>
