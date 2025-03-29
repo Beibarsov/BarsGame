@@ -26,7 +26,7 @@ let a = 1;
       <HelloWorld msg="Привет" />
       
       <MainButton  text="Нажми на кнопку" @click=" () => showAlert('Result!')"/>
-      
+        <button @click=" () =>showAlert('Result!')">Классная кнопка</button>
       
 
       
@@ -41,8 +41,7 @@ let a = 1;
         <p>{{ userFirstName }}</p>
         <p> У тебя очков {{ a }}</p>
       </h3>
-      <button @click=" () =>showAlert('Result!')">Классная кнопка</button>
-      <router-link to="/products">Products</router-link>
+      
   </main>
 </template>
 
